@@ -15,8 +15,6 @@ Group:		X11/Applications
 Source0:	ftp://ftp.x.org/contrib/utilities/%{name}-%{version}.tar.gz
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_prefix		/usr/X11R6
-%define		_mandir		/usr/X11R6/man
 
 %description
 Xtoolwait is a utility which starts an X client in the background,
