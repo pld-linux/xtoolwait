@@ -16,7 +16,6 @@ Source0:	ftp://ftp.x.org/contrib/utilities/%{name}-%{version}.tar.gz
 # Source0-md5:	6db998d882b17b35c9fa858432e345a6
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-
 %description
 Xtoolwait is a utility which starts an X client in the background,
 waits for a window to be mapped on the root window, and then exits.
@@ -30,7 +29,7 @@ for X sessions.
 %description -l de
 Utility zum Starten eines Programms und Abwarten des Aufbaus eines
 Fensters. Kein Endbenutzer-Programm, jedoch nützlich zum Schreiben von
-Skripts, die X-Windows-Programme ausführen.
+Skripts, die X-Window-Programme ausführen.
 
 %description -l es
 Utilitario para iniciar un programa y esperar por él, para hacer el
