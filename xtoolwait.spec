@@ -51,7 +51,7 @@ kullanýcýya yönelik bir uygulama deðildir.
 Xtoolwait jest narzêdziem, które uruchamia X klienta w tle, czeka na
 okienko, które ma byæ podmapowane w g³ównym oknie, po czym koñczy
 dzia³anie. Xtoolwait mo¿e zwiêkszyæ wydajno¶æ dla u¿ytkowników, którzy
-uruchamiaj± du¿o klintów X automatycznie (np. xterm, xlock, xconsole,
+uruchamiaj± du¿o klientów X automatycznie (np. xterm, xlock, xconsole,
 cokolwiek) przy starcie sesji X.
 
 %description -l uk
