@@ -91,8 +91,10 @@ xmkmf
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install install.man DESTDIR=$RPM_BUILD_ROOT
-
+%{__make} install install.man \
+	DESTDIR=$RPM_BUILD_ROOT \
+	BINDIR="%{_bindir}" \
+	MANDIR="%{_mandir}/man1" 
 
 %clean
 rm -rf $RPM_BUILD_ROOT
