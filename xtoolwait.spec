@@ -1,12 +1,15 @@
 Summary:	A utility which aims to decrease X session startup time
-Summary(pl):	Narzêdzie które ma na celu zmniejszenie czasu startu sesji X
+Summary(pl):	Narzêdzie maj±ce na celu zmniejszenie czasu startu sesji X
 Name:		xtoolwait
 Version:	1.2
 Release:	2
 License:	GPL
 Group:		X11/Applications
 Group(de):	X11/Applikationen
+Group(es):	X11/Aplicaciones
 Group(pl):	X11/Aplikacje
+Group(pt_BR):	X11/Aplicações
+Group(pt):	X11/Aplicações
 Source0:	ftp://ftp.x.org/contrib/utilities/%{name}-%{version}.tar.gz
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -22,6 +25,13 @@ when the X session starts.
 
 Install xtoolwait if you'd like to try to speed up the startup time
 for X sessions.
+
+%description -l pl
+Xtoolwait jest narzêdziem, które uruchamia X klienta w tle, czeka na
+okienko, które ma byæ podmapowane w g³ównym oknie, po czym koñczy
+dzia³anie. Xtoolwait mo¿e zwiêkszyæ wydajno¶æ dla u¿ytkowników, którzy
+uruchamiaj± du¿o klintów X automatycznie (np. xterm, xlock, xconsole,
+cokolwiek) przy starcie sesji X.
 
 %prep
 %setup -q
