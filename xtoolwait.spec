@@ -13,6 +13,7 @@ Release:	3
 License:	GPL v2
 Group:		X11/Applications
 Source0:	ftp://ftp.x.org/contrib/utilities/%{name}-%{version}.tar.gz
+# Source0-md5:	6db998d882b17b35c9fa858432e345a6
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 
