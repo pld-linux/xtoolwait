@@ -1,5 +1,8 @@
 Summary:	A utility which aims to decrease X session startup time
+Summary(de):	Startet ein X-Programm und wartet auf dessen Fenster
 Summary(es):	Dispara un programa X y espera por su ventana
+Summary(fr):	Lance un programme X et attend sa fenêtre
+Summary(tr):	X programı açar ve penceresini bekler
 Summary(pl):	Narzêdzie maj±ce na celu zmniejszenie czasu startu sesji X
 Summary(pt_BR):	Dispara um programa X e espera pela sua janela
 Summary(ru):	õÔÉÌÉÔÁ, ĞÏÍÏÇÁÀİÁÑ ÕÍÅÎØÛÉÔØ ×ÒÅÍÑ ÚÁĞÕÓËÁ ÓÅÁÎÓÁ X Window
@@ -25,10 +28,24 @@ when the X session starts.
 Install xtoolwait if you'd like to try to speed up the startup time
 for X sessions.
 
+%description -l de
+Utility zum Starten eines Programms und Abwarten des Aufbaus eines
+Fensters. Kein Endbenutzer-Programm, jedoch nützlich zum Schreiben von
+Skripts, die X-Windows-Programme ausführen.
+
 %description -l es
 Utilitario para iniciar un programa y esperar por él, para hacer el
 mapa de una ventana. ENOes un programa "end-user", pero es útil para
 escribir scripts que ejecuten programas X Window.
+
+%description -l fr
+Utilitaire pour lancer un programme et attendre qu'il corresponde à
+une fenêtre. Utile pour écrire des scripts qui lancent des programmes
+X Window
+
+%description -l tr
+Bir programı çalıştırır ve penceresinin yaratılmasını bekler. Son
+kullanıcıya yönelik bir uygulama değildir.
 
 %description -l pl
 Xtoolwait jest narzêdziem, które uruchamia X klienta w tle, czeka na
