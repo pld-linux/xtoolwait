@@ -33,7 +33,9 @@ cokolwiek) przy starcie sesji X.
 
 %build
 xmkmf
-%{__make} CXXDEBUGFLAGS="%{rpmcflags}" \
+%{__make} \
+	CC="%{__cc}" \
+	CXXDEBUGFLAGS="%{rpmcflags}" \
 	CDEBUGFLAGS="%{rpmcflags}"
 
 %install
