@@ -26,13 +26,13 @@ for X sessions.
 
 %build
 xmkmf
-make CXXDEBUGFLAGS="$RPM_OPT_FLAGS" \
+%{__make} CXXDEBUGFLAGS="$RPM_OPT_FLAGS" \
 	CDEBUGFLAGS="$RPM_OPT_FLAGS"
 
 %install
 rm -rf $RPM_BUILD_ROOT
 
-make install install.man DESTDIR=$RPM_BUILD_ROOT
+%{__make} install install.man DESTDIR=$RPM_BUILD_ROOT
 
 strip --strip-unneeded $RPM_BUILD_ROOT%{_bindir}/xtoolwait
 
