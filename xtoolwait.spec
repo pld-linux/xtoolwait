@@ -1,9 +1,11 @@
-Summary:	A utility which aims to decrease X session startup time.
+Summary:	A utility which aims to decrease X session startup time
+Summary(pl):	Narzêdzie które ma na celu zmniejszenie czasu startu sesji X
 Name:		xtoolwait
 Version:	1.2
 Release:	2
 License:	GPL
 Group:		X11/Applications
+Group(de):	X11/Applikationen
 Group(pl):	X11/Aplikacje
 Source0:	ftp://ftp.x.org/contrib/utilities/%{name}-%{version}.tar.gz
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -26,17 +28,13 @@ for X sessions.
 
 %build
 xmkmf
-%{__make} CXXDEBUGFLAGS="$RPM_OPT_FLAGS" \
-	CDEBUGFLAGS="$RPM_OPT_FLAGS"
+%{__make} CXXDEBUGFLAGS="%{rpmcflags}" \
+	CDEBUGFLAGS="%{rpmcflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
 
 %{__make} install install.man DESTDIR=$RPM_BUILD_ROOT
-
-strip --strip-unneeded $RPM_BUILD_ROOT%{_bindir}/xtoolwait
-
-gzip -9nf $RPM_BUILD_ROOT%{_mandir}/man1/xtoolwait.1x
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -44,4 +42,4 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_bindir}/xtoolwait
-%{_mandir}/man1/xtoolwait.1x.gz
+%{_mandir}/man1/xtoolwait.1x*
