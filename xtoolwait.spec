@@ -9,7 +9,7 @@ Summary(ru):	Утилита, помогающая уменьшить время запуска сеанса X Window
 Summary(uk):	Утил╕та, що допомага╓ зменшити час запуску сеансу X Window
 Name:		xtoolwait
 Version:	1.3
-Release:	3
+Release:	4
 License:	GPL v2
 Group:		X11/Applications
 Source0:	ftp://ftp.x.org/contrib/utilities/%{name}-%{version}.tar.gz
