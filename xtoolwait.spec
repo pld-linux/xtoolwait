@@ -1,12 +1,14 @@
-Summary: A utility which aims to decrease X session startup time.
-Name: xtoolwait
-Version: 1.2
-Release: 2
-Copyright: GPL
-Group: Applications/System
-Source: ftp://ftp.x.org/contrib/utilities/xtoolwait-1.2.tar.gz
-Prefix: /usr
-BuildRoot: /var/tmp/xtoolwait-root
+Summary:	A utility which aims to decrease X session startup time.
+Name:		xtoolwait
+Version:	1.2
+Release:	2
+Copyright:	GPL
+Group:		Applications/System
+Source:		ftp://ftp.x.org/contrib/utilities/%{name}-%{version}.tar.gz
+BuildRoot:	/tmp/%{name}-%{version}-root
+
+%define		_prefix		/usr/X11R6
+%define		_mandir		/usr/X11R6/man
 
 %description
 Xtoolwait is a utility which starts an X client in the background, waits
@@ -23,17 +25,22 @@ X sessions.
 
 %build
 xmkmf
-make
+make CXXDEBUGFLAGS="$RPM_OPT_FLAGS" \
+	CDEBUGFLAGS="$RPM_OPT_FLAGS"
 
 %install
 rm -rf $RPM_BUILD_ROOT
 
-make DESTDIR=$RPM_BUILD_ROOT install install.man
+make install install.man DESTDIR=$RPM_BUILD_ROOT
+
+strip --strip-unneeded $RPM_BUILD_ROOT%{_bindir}/xtoolwait
+
+gzip -9nf $RPM_BUILD_ROOT%{_mandir}/man1/xtoolwait.1x
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
-%defattr(-,root,root)
-/usr/X11R6/bin/xtoolwait
-/usr/X11R6/man/man1/xtoolwait.1x
+%defattr(644,root,root,755)
+%attr(755,root,root) %{_bindir}/xtoolwait
+%{_mandir}/man1/xtoolwait.1x.gz
