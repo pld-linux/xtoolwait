@@ -95,13 +95,12 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install install.man DESTDIR=$RPM_BUILD_ROOT
 
-gzip -9nf README CHANGES
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc README CHANGES
 %attr(755,root,root) %{_bindir}/xtoolwait
 %{_mandir}/man1/xtoolwait.1x*
