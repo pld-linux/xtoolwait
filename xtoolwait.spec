@@ -2,14 +2,14 @@ Summary:	A utility which aims to decrease X session startup time
 Summary(de):	Startet ein X-Programm und wartet auf dessen Fenster
 Summary(es):	Dispara un programa X y espera por su ventana
 Summary(fr):	Lance un programme X et attend sa fenЙtre
-Summary(tr):	X programЩ aГar ve penceresini bekler
 Summary(pl):	NarzЙdzie maj╠ce na celu zmniejszenie czasu startu sesji X
 Summary(pt_BR):	Dispara um programa X e espera pela sua janela
 Summary(ru):	Утилита, помогающая уменьшить время запуска сеанса X Window
+Summary(tr):	X programЩ aГar ve penceresini bekler
 Summary(uk):	Утил╕та, що допомага╓ зменшити час запуску сеансу X Window
 Name:		xtoolwait
 Version:	1.3
-Release:	4
+Release:	5
 License:	GPL v2
 Group:		X11/Applications
 Source0:	ftp://ftp.x.org/contrib/utilities/%{name}-%{version}.tar.gz
@@ -94,7 +94,7 @@ rm -rf $RPM_BUILD_ROOT
 %{__make} install install.man \
 	DESTDIR=$RPM_BUILD_ROOT \
 	BINDIR="%{_bindir}" \
-	MANDIR="%{_mandir}/man1" 
+	MANDIR="%{_mandir}/man1"
 
 %clean
 rm -rf $RPM_BUILD_ROOT
