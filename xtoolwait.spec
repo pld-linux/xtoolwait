@@ -1,12 +1,12 @@
 Summary:	A utility which aims to decrease X session startup time
-Summary(de.UTF-8):   Startet ein X-Programm und wartet auf dessen Fenster
-Summary(es.UTF-8):   Dispara un programa X y espera por su ventana
-Summary(fr.UTF-8):   Lance un programme X et attend sa fenêtre
-Summary(pl.UTF-8):   Narzędzie mające na celu zmniejszenie czasu startu sesji X
-Summary(pt_BR.UTF-8):   Dispara um programa X e espera pela sua janela
-Summary(ru.UTF-8):   Утилита, помогающая уменьшить время запуска сеанса X Window
-Summary(tr.UTF-8):   X programı açar ve penceresini bekler
-Summary(uk.UTF-8):   Утиліта, що допомагає зменшити час запуску сеансу X Window
+Summary(de.UTF-8):	Startet ein X-Programm und wartet auf dessen Fenster
+Summary(es.UTF-8):	Dispara un programa X y espera por su ventana
+Summary(fr.UTF-8):	Lance un programme X et attend sa fenêtre
+Summary(pl.UTF-8):	Narzędzie mające na celu zmniejszenie czasu startu sesji X
+Summary(pt_BR.UTF-8):	Dispara um programa X e espera pela sua janela
+Summary(ru.UTF-8):	Утилита, помогающая уменьшить время запуска сеанса X Window
+Summary(tr.UTF-8):	X programı açar ve penceresini bekler
+Summary(uk.UTF-8):	Утиліта, що допомагає зменшити час запуску сеансу X Window
 Name:		xtoolwait
 Version:	1.3
 Release:	5
