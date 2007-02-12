@@ -1,12 +1,12 @@
 Summary:	A utility which aims to decrease X session startup time
-Summary(de):	Startet ein X-Programm und wartet auf dessen Fenster
-Summary(es):	Dispara un programa X y espera por su ventana
-Summary(fr):	Lance un programme X et attend sa fenЙtre
-Summary(pl):	NarzЙdzie maj╠ce na celu zmniejszenie czasu startu sesji X
-Summary(pt_BR):	Dispara um programa X e espera pela sua janela
-Summary(ru):	Утилита, помогающая уменьшить время запуска сеанса X Window
-Summary(tr):	X programЩ aГar ve penceresini bekler
-Summary(uk):	Утил╕та, що допомага╓ зменшити час запуску сеансу X Window
+Summary(de.UTF-8):   Startet ein X-Programm und wartet auf dessen Fenster
+Summary(es.UTF-8):   Dispara un programa X y espera por su ventana
+Summary(fr.UTF-8):   Lance un programme X et attend sa fenц╙tre
+Summary(pl.UTF-8):   Narzд≥dzie majд┘ce na celu zmniejszenie czasu startu sesji X
+Summary(pt_BR.UTF-8):   Dispara um programa X e espera pela sua janela
+Summary(ru.UTF-8):   пёя┌п╦п╩п╦я┌п╟, п©п╬п╪п╬пЁп╟я▌я┴п╟я▐ я┐п╪п╣п╫я▄я┬п╦я┌я▄ п╡я─п╣п╪я▐ п╥п╟п©я┐я│п╨п╟ я│п╣п╟п╫я│п╟ X Window
+Summary(tr.UTF-8):   X programд╠ aц╖ar ve penceresini bekler
+Summary(uk.UTF-8):   пёя┌п╦п╩я√я┌п╟, я┴п╬ п╢п╬п©п╬п╪п╟пЁп╟я■ п╥п╪п╣п╫я┬п╦я┌п╦ я┤п╟я│ п╥п╟п©я┐я│п╨я┐ я│п╣п╟п╫я│я┐ X Window
 Name:		xtoolwait
 Version:	1.3
 Release:	5
@@ -26,57 +26,57 @@ when the X session starts.
 Install xtoolwait if you'd like to try to speed up the startup time
 for X sessions.
 
-%description -l de
+%description -l de.UTF-8
 Utility zum Starten eines Programms und Abwarten des Aufbaus eines
-Fensters. Kein Endbenutzer-Programm, jedoch nЭtzlich zum Schreiben von
-Skripts, die X-Window-Programme ausfЭhren.
+Fensters. Kein Endbenutzer-Programm, jedoch nц╪tzlich zum Schreiben von
+Skripts, die X-Window-Programme ausfц╪hren.
 
-%description -l es
-Utilitario para iniciar un programa y esperar por Иl, para hacer el
-mapa de una ventana. ENOes un programa "end-user", pero es Зtil para
+%description -l es.UTF-8
+Utilitario para iniciar un programa y esperar por ц╘l, para hacer el
+mapa de una ventana. ENOes un programa "end-user", pero es ц╨til para
 escribir scripts que ejecuten programas X Window.
 
-%description -l fr
-Utilitaire pour lancer un programme et attendre qu'il corresponde Ю
-une fenЙtre. Utile pour Иcrire des scripts qui lancent des programmes
+%description -l fr.UTF-8
+Utilitaire pour lancer un programme et attendre qu'il corresponde ц═
+une fenц╙tre. Utile pour ц╘crire des scripts qui lancent des programmes
 X Window
 
-%description -l tr
-Bir programЩ ГalЩЧtЩrЩr ve penceresinin yaratЩlmasЩnЩ bekler. Son
-kullanЩcЩya yЖnelik bir uygulama deПildir.
+%description -l tr.UTF-8
+Bir programд╠ ц╖alд╠е÷tд╠rд╠r ve penceresinin yaratд╠lmasд╠nд╠ bekler. Son
+kullanд╠cд╠ya yц╤nelik bir uygulama deд÷ildir.
 
-%description -l pl
-Xtoolwait jest narzЙdziem, ktСre uruchamia X klienta w tle, czeka na
-okienko, ktСre ma byФ podmapowane w gЁСwnym oknie, po czym koЯczy
-dziaЁanie. Xtoolwait mo©e zwiЙkszyФ wydajno╤Ф dla u©ytkownikСw, ktСrzy
-uruchamiaj╠ du©o klientСw X automatycznie (np. xterm, xlock, xconsole,
+%description -l pl.UTF-8
+Xtoolwait jest narzд≥dziem, ktцЁre uruchamia X klienta w tle, czeka na
+okienko, ktцЁre ma byд┤ podmapowane w gе┌цЁwnym oknie, po czym koе└czy
+dziaе┌anie. Xtoolwait moе╪e zwiд≥kszyд┤ wydajnoе⌡д┤ dla uе╪ytkownikцЁw, ktцЁrzy
+uruchamiajд┘ duе╪o klientцЁw X automatycznie (np. xterm, xlock, xconsole,
 cokolwiek) przy starcie sesji X.
 
-%description -l uk
-Xtoolwait - це утил╕та, яка запуска╓ X кл╕╓нта в фоновому режим╕,
-чека╓ доки в╕н в╕дкри╓ сво╓ в╕кно ╕ завершу╓ться. Xtoolwait може
-покращити час запуску для користувач╕в, котр╕ запускають пакет X
-кл╕╓нт╕в автоматично (наприклад, xterm, xlock, xconsole ╕ т.п.) при
-запуску сеансу X Window.
+%description -l uk.UTF-8
+Xtoolwait - я├п╣ я┐я┌п╦п╩я√я┌п╟, я▐п╨п╟ п╥п╟п©я┐я│п╨п╟я■ X п╨п╩я√я■п╫я┌п╟ п╡ я└п╬п╫п╬п╡п╬п╪я┐ я─п╣п╤п╦п╪я√,
+я┤п╣п╨п╟я■ п╢п╬п╨п╦ п╡я√п╫ п╡я√п╢п╨я─п╦я■ я│п╡п╬я■ п╡я√п╨п╫п╬ я√ п╥п╟п╡п╣я─я┬я┐я■я┌я▄я│я▐. Xtoolwait п╪п╬п╤п╣
+п©п╬п╨я─п╟я┴п╦я┌п╦ я┤п╟я│ п╥п╟п©я┐я│п╨я┐ п╢п╩я▐ п╨п╬я─п╦я│я┌я┐п╡п╟я┤я√п╡, п╨п╬я┌я─я√ п╥п╟п©я┐я│п╨п╟я▌я┌я▄ п©п╟п╨п╣я┌ X
+п╨п╩я√я■п╫я┌я√п╡ п╟п╡я┌п╬п╪п╟я┌п╦я┤п╫п╬ (п╫п╟п©я─п╦п╨п╩п╟п╢, xterm, xlock, xconsole я√ я┌.п©.) п©я─п╦
+п╥п╟п©я┐я│п╨я┐ я│п╣п╟п╫я│я┐ X Window.
 
-%description -l pt_BR
-UtilitАrio para iniciar um programa e esperar por ele para mapear uma
-janela. NЦo И um programa "end-user", mas И Зtil para escrever scripts
+%description -l pt_BR.UTF-8
+Utilitц║rio para iniciar um programa e esperar por ele para mapear uma
+janela. Nцёo ц╘ um programa "end-user", mas ц╘ ц╨til para escrever scripts
 que rodem programas X Window.
 
-%description -l ru
-Xtoolwait - это утилита, которая запускает X клиента в фоновом режиме,
-ждет пока он откроет свое окно и затем завершается. Xtoolwait может
-улучшить время запуска для пользователей, которые запускают пакет X
-клиентов автоматически (например, xterm, xlock, xconsole, и т.п.) при
-запуске сеанса X Window.
+%description -l ru.UTF-8
+Xtoolwait - я█я┌п╬ я┐я┌п╦п╩п╦я┌п╟, п╨п╬я┌п╬я─п╟я▐ п╥п╟п©я┐я│п╨п╟п╣я┌ X п╨п╩п╦п╣п╫я┌п╟ п╡ я└п╬п╫п╬п╡п╬п╪ я─п╣п╤п╦п╪п╣,
+п╤п╢п╣я┌ п©п╬п╨п╟ п╬п╫ п╬я┌п╨я─п╬п╣я┌ я│п╡п╬п╣ п╬п╨п╫п╬ п╦ п╥п╟я┌п╣п╪ п╥п╟п╡п╣я─я┬п╟п╣я┌я│я▐. Xtoolwait п╪п╬п╤п╣я┌
+я┐п╩я┐я┤я┬п╦я┌я▄ п╡я─п╣п╪я▐ п╥п╟п©я┐я│п╨п╟ п╢п╩я▐ п©п╬п╩я▄п╥п╬п╡п╟я┌п╣п╩п╣п╧, п╨п╬я┌п╬я─я▀п╣ п╥п╟п©я┐я│п╨п╟я▌я┌ п©п╟п╨п╣я┌ X
+п╨п╩п╦п╣п╫я┌п╬п╡ п╟п╡я┌п╬п╪п╟я┌п╦я┤п╣я│п╨п╦ (п╫п╟п©я─п╦п╪п╣я─, xterm, xlock, xconsole, п╦ я┌.п©.) п©я─п╦
+п╥п╟п©я┐я│п╨п╣ я│п╣п╟п╫я│п╟ X Window.
 
-%description -l uk
-Xtoolwait - це утил╕та, яка запуска╓ X кл╕╓нта в фоновому режим╕,
-чека╓ доки в╕н в╕дкри╓ сво╓ в╕кно ╕ завершу╓ться. Xtoolwait може
-покращити час запуску для користувач╕в, котр╕ запускають пакет X
-кл╕╓нт╕в автоматично (наприклад, xterm, xlock, xconsole ╕ т.п.) при
-запуску сеансу X Window.
+%description -l uk.UTF-8
+Xtoolwait - я├п╣ я┐я┌п╦п╩я√я┌п╟, я▐п╨п╟ п╥п╟п©я┐я│п╨п╟я■ X п╨п╩я√я■п╫я┌п╟ п╡ я└п╬п╫п╬п╡п╬п╪я┐ я─п╣п╤п╦п╪я√,
+я┤п╣п╨п╟я■ п╢п╬п╨п╦ п╡я√п╫ п╡я√п╢п╨я─п╦я■ я│п╡п╬я■ п╡я√п╨п╫п╬ я√ п╥п╟п╡п╣я─я┬я┐я■я┌я▄я│я▐. Xtoolwait п╪п╬п╤п╣
+п©п╬п╨я─п╟я┴п╦я┌п╦ я┤п╟я│ п╥п╟п©я┐я│п╨я┐ п╢п╩я▐ п╨п╬я─п╦я│я┌я┐п╡п╟я┤я√п╡, п╨п╬я┌я─я√ п╥п╟п©я┐я│п╨п╟я▌я┌я▄ п©п╟п╨п╣я┌ X
+п╨п╩я√я■п╫я┌я√п╡ п╟п╡я┌п╬п╪п╟я┌п╦я┤п╫п╬ (п╫п╟п©я─п╦п╨п╩п╟п╢, xterm, xlock, xconsole я√ я┌.п©.) п©я─п╦
+п╥п╟п©я┐я│п╨я┐ я│п╣п╟п╫я│я┐ X Window.
 
 %prep
 %setup -q
