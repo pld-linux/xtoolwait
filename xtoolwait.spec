@@ -9,7 +9,7 @@ Summary(tr.UTF-8):	X programı açar ve penceresini bekler
 Summary(uk.UTF-8):	Утиліта, що допомагає зменшити час запуску сеансу X Window
 Name:		xtoolwait
 Version:	1.3
-Release:	5
+Release:	6
 License:	GPL v2
 Group:		X11/Applications
 Source0:	ftp://ftp.x.org/contrib/utilities/%{name}-%{version}.tar.gz
