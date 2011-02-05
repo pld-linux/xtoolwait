@@ -52,13 +52,6 @@ działanie. Xtoolwait może zwiększyć wydajność dla użytkowników, którzy
 uruchamiają dużo klientów X automatycznie (np. xterm, xlock, xconsole,
 cokolwiek) przy starcie sesji X.
 
-%description -l uk.UTF-8
-Xtoolwait - це утиліта, яка запускає X клієнта в фоновому режимі,
-чекає доки він відкриє своє вікно і завершується. Xtoolwait може
-покращити час запуску для користувачів, котрі запускають пакет X
-клієнтів автоматично (наприклад, xterm, xlock, xconsole і т.п.) при
-запуску сеансу X Window.
-
 %description -l pt_BR.UTF-8
 Utilitário para iniciar um programa e esperar por ele para mapear uma
 janela. Não é um programa "end-user", mas é útil para escrever scripts
